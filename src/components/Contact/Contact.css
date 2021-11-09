@@ -1,0 +1,42 @@
+.email-heading{
+    color: #000;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 45vh;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.authorship .name {
+    color: #000;
+}
+
+.email-heading .email-icon {
+    place-items: center;
+}

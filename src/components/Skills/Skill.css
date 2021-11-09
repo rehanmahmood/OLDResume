@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+.bar{
+    width: 600px;
+    background: #f3f5f7;
+    border-radius: 10px;
+    padding: 15px 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.Skill-bar .bar{
+    margin: 20px 0;
+}
+
+.Skill-bar .bar:first-child{
+    margin-top: 0;
+}
+
+.Skill-bar .bar .info{
+    margin-bottom: 5px;
+}
+.Skill-bar h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.Skill-bar .bar .progress-line{
+    position: relative;
+    height: 10px;
+    background: #e2e1e1;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: inset 0 1 1px rgba(0, 0, 0, 0.05);
+}
+
+.bar .progress-line span{
+    height: 100%;
+    background: #00bcd4;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.bar .progress-line span::before{
+    content: '';
+    position: relative;
+    width: 0;
+    height: 0;
+    right: 0;
+    top: -10px;
+    border-style: 7px solid transparent;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-top-color: #ffffff;
+    z-index: 1;
+}
+

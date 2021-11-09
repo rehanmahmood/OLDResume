@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  object-fit: contain;
+  background-image: url(../../assests/Home/img13.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  backface-visibility: hidden;
+}
+
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
+.myname {
+  color: #8A6EE6;
+}
+
+h3 {
+  color: #dbd709;
+}
+
+.profile-parent {
+  display: flex;
+  align-items: center;
+  color: aliceblue;
+
+}
+
+.profile-details-name {
+  font-size: 60px;
+}
+
+.profile-details-roll {
+  display: flex;
+  flex-direction: column;
+  margin: 14px 0 24px 0;
+}
+
+.profile-details-roll h1 {
+  font-size: 30px;
+  
+}
+
+.primary-text {
+  color: (--white);
+}
+
+.profile-roll-tag {
+  font-size: 20px;
+  
+  margin: 5px 0 0 0;
+}
+
+.profile-options resume-btn {
+  margin: 0 0 0 28px;
+  color: #5AE6CE;
+}
+
+.profile-options resume-btn:hover {
+  margin: 0 0 0 28px;
+  background-color: cornsilk;
+  color: #111;
+}
+
+.profile-picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 1);
+  border-radius: 50%;
+  height: 380px;
+  width: 380px;
+  margin: 0 0 0 100px;
+}
+
+.profile-picture-bgd {
+  height: 92%;
+  width: 92%;
+  background-image: url("../../assests/Home/newprofile.jpeg");
+  background-size: cover;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.profile-picture-bgd:hover {
+  transform: scale(1.09);
+  transition: 1s ease-out;
+}
+
+.colz .colz-icon i {
+  color: rgb(255, 255, 255);
+  padding: 9px;
+  padding-top: 18px;
+}
+
+.colz .colz-icon i {
+  transform: scale(1.5);
+}
+
+@media screen and (max-width: 1110px) {
+  .profile-picture {
+    margin: 0 0 0 0;
+  }
+
+  .profile-details-name {
+    font-size: 18px;
+  }
+
+  .profile-details-roll .primary-text {
+    font-size: 16px;
+  }
+
+  .profile-options .btn {
+    width: 120px;
+    padding: 11px 0;
+    z-index: 700;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .profile-picture {
+    height: 320px;
+    width: 320px;
+    margin: 0 0 0 4px;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .profile-picture {
+    margin: 00 !important;
+  }
+
+  .profile-parent {
+    flex-direction: column-reverse;
+    margin: 40px 0 0 0;
+  }
+
+  .profile-options {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .profile-options .btn {
+    margin: 0 !important;
+  }
+
+  .profile-details-roll {
+    text-align: centerS;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .profile-picture {
+    height: 275px;
+    width: 275px;
+    margin-top: -90px;
+  }
+
+  .profile-details {
+    width: 90%;
+  }
+}
